@@ -8,3 +8,20 @@ Websites bring out your company's personality and offer a level of intimacy that
 Our website will act as a bridge for connecting contributors to numerous non-governmental organizations (NGOs) that work in a variety of areas, such as assisting orphanages, illiterate people, cancer patients, and so on. They may be able to provide financial assistance that will be used to assist various non-governmental organisations.
 
 
+# Module Description:
+1. Home Page: This will be the landing page our our website- “HelpNeedy”. This will show the basic information about our website like :
+About us
+Why choose us
+Signup and Sign in options for the donor.
+Our Sponsors
+Our social media handles 
+
+
+2. NGO page: This will consists of information about the various NGO. From here the user can choose a NGO from different domains such as:
+Education
+Women and Children Economy Development.
+Incurable diseases like cancer,etc.
+
+
+
+
