@@ -22,6 +22,19 @@ Education
 Women and Children Economy Development.
 Incurable diseases like cancer,etc.
 
+3.  Payment Gateway: The transaction will be aided by this module. The following are the many transaction possibilities that we intend to include:
+1. Visa/Mastercard/American Express/Eurocard/Eurocard/Eurocard/Eurocard
+2. Net banking 
+3. Paytm and Google Pay are two of the most popular payment options.
+Following that, an automatic email will be sent to the user's registered email address, verifying the transaction's success.
+
+
+
+
+
+
+
+
 
 
 
