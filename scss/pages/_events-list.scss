@@ -1,0 +1,47 @@
+.events-list-header {
+    background-image: linear-gradient(
+            to bottom,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+        ),
+        url("../images/volunteerimg3.jpg");
+    background-position: top center;
+    width: 100%;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    &__title {
+        font-size: clamp(3rem, 13vw, 7rem);
+        font-family: "playfair display", serif;
+        color: white;
+    }
+
+    &__subtitle {
+        font-size: clamp(1rem, 5vw, 2rem);
+        font-weight: 300;
+        color: rgba(white, 0.8);
+    }
+}
+
+.events-list-main {
+    &__header {
+        margin-block: 5rem;
+        font-family: "playfair display", serif;
+        text-align: center;
+        font-size: 3.5rem;
+    }
+    @include common-card-prop;
+    &__card {
+        height: 25rem;
+
+        &__img {
+            height: 12rem;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+}

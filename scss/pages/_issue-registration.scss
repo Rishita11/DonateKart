@@ -1,0 +1,17 @@
+.issue-heading {
+    color: $clr-secondary-400;
+    font-weight: 600;
+}
+
+.issue-form {
+    background-image: linear-gradient(
+        to top,
+        $clr-secondary-400,
+        $clr-secondary-100
+    );
+    border-radius: 1.5rem;
+}
+
+#locationTrackingLink {
+    cursor: pointer;
+}

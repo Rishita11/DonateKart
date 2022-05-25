@@ -1,0 +1,16 @@
+.top-navbar {
+    background-color: $clr-primary-100;
+
+    & .container {
+        justify-content: space-around;
+    }
+}
+
+.navbar-brand {
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
+.nav-link {
+    font-size: 1.25rem;
+}

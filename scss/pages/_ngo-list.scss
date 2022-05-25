@@ -1,0 +1,46 @@
+.ngo-list-header {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: 50% 0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    --clr-opacity: 0.9;
+    background-image: linear-gradient(
+            to bottom right,
+            rgba($clr-primary-400, var(--clr-opacity)),
+            rgba($clr-secondary-400, var(--clr-opacity))
+        ),
+        url("../images/ngo-list-header-img.jpg");
+
+    &__heading {
+        background-image: linear-gradient(
+            60deg,
+            $clr-secondary-400 0%,
+            $clr-primary-100 50%,
+            $clr-secondary-200 100%
+        );
+        color: transparent;
+        -webkit-text-stroke: 5px white;
+        -webkit-background-clip: text;
+        background-clip: text;
+        font-size: clamp(8rem, 20vw, 15rem);
+    }
+}
+
+.ngo-list {
+    @include common-card-prop;
+    &__card {
+        height: 22rem;
+
+        &__img {
+            height: 12rem;
+            width: 100%;
+            object-fit: contain;
+            background-color: white;
+        }
+    }
+}

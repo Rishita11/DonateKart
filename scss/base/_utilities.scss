@@ -1,0 +1,97 @@
+// * MARGIN
+.u-mt-large {
+    margin-top: 8rem;
+}
+
+@media screen and (max-width: 576px) {
+    .u-mt-xs-5 {
+        margin-top: 2rem;
+    }
+}
+
+// * FONT SIZE
+.u-fs-large {
+    font-size: clamp(1.5rem, 14vw, 4.5rem);
+}
+
+.u-fs-medium {
+    font-size: clamp(1rem, 9vw, 3.5rem);
+}
+
+// * WIDTH
+.u-width-100per {
+    width: 100%;
+}
+
+@media screen and (max-width: 576px) {
+    .u-width-small-100per {
+        width: 100%;
+    }
+}
+
+.u-width-10per {
+    width: 10%;
+}
+
+@media screen and (max-width: 576px) {
+    .u-width-xs-30per {
+        width: 30%;
+    }
+}
+
+.u-width-80per {
+    width: 80%;
+}
+
+.u-width-90per {
+    width: 90%;
+}
+
+// * HEIGHT
+.u-height-regular {
+    height: 2rem;
+}
+
+.u-height-big {
+    height: 4rem;
+}
+
+.u-height-large {
+    height: 6rem;
+}
+
+// * FONT WEIGHT
+.u-fw-medium {
+    font-weight: 500;
+}
+
+// * ALIGNMENT
+@media screen and (max-width: 576px) {
+    .u-center-on-small-screen {
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+// * BORDER RADIUS
+.u-rounded-4 {
+    border-radius: 0.5rem;
+}
+
+// * FLEX
+@media screen and (max-width: 576px) {
+    .u-flex-xs-column-reverse {
+        flex-direction: column-reverse;
+    }
+}
+
+// * ROTATION
+.rotate-180 {
+    transform: rotateX(180deg);
+}
+
+// * BUTTON
+
+.u-btn-xlg {
+    font-size: 1.5rem;
+}
